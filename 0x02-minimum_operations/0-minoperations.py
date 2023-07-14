@@ -6,7 +6,8 @@ Minimum Operations
 
 def minOperations(n):
     """
-    Calculates minimal operations needed to achieve exactly n H characters in the file.
+    Calculates minimal operations needed to \
+        achieve exactly n H characters in the file.
     """
     if n <= 1:
         return 0
