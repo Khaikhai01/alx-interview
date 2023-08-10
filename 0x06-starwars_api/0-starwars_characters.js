@@ -16,6 +16,7 @@ request(url, (err, res) => {
 
   const printCharacterNames = async () => {
     for (const character of characters) {
+      // eslint-disable-next-line no-await-in-loop
       await new Promise((resolve, reject) => {
         request(character, (err, res) => {
           if (err) {
